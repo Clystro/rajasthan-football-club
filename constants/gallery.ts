@@ -1,0 +1,68 @@
+import { GalleryItem } from "@/types";
+
+export const GALLERY_ITEMS: GalleryItem[] = [
+  {
+    id: "gal-01",
+    title: "Floodlit Fortress at SMS Stadium",
+    category: "Matchday",
+    image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=1200&auto=format&fit=crop&q=80",
+    caption: "30,000 royal fans roaring under the SMS Stadium floodlights in Jaipur.",
+    tag: "Matchday Atmosphere",
+  },
+  {
+    id: "gal-02",
+    title: "Lucas Silva Goal Celebration",
+    category: "Celebrations",
+    image: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=1200&auto=format&fit=crop&q=80",
+    caption: "Lucas Silva runs toward the West Stand after netting a 90th-minute screamer.",
+    tag: "Celebration",
+  },
+  {
+    id: "gal-03",
+    title: "Tactical Warm-up Drills",
+    category: "Training",
+    image: "https://images.unsplash.com/photo-1526232761682-d26e03ac148e?w=1200&auto=format&fit=crop&q=80",
+    caption: "First team undergoing high-intensity tactical passing rondos at RFC Royal Arena.",
+    tag: "Training",
+  },
+  {
+    id: "gal-04",
+    title: "U-15 Colts Youth Champions",
+    category: "Academy",
+    image: "https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=1200&auto=format&fit=crop&q=80",
+    caption: "Our junior royals celebrating their unbeaten run in the Western Zone Youth Trophy.",
+    tag: "Academy Pride",
+  },
+  {
+    id: "gal-05",
+    title: "The Desert Wall - Tifo Display",
+    category: "Matchday",
+    image: "https://images.unsplash.com/photo-1459865264687-595d652de67e?w=1200&auto=format&fit=crop&q=80",
+    caption: "Huge hand-painted tifo unfurled by the Rajasthan Ultras behind the North Goal.",
+    tag: "Fan Culture",
+  },
+  {
+    id: "gal-06",
+    title: "Goalkeeper Reflex Drills",
+    category: "Training",
+    image: "https://images.unsplash.com/photo-1518091043644-c1d4457512c6?w=1200&auto=format&fit=crop&q=80",
+    caption: "Suraj Pratap Singh diving to tip a curling strike over the bar during dusk session.",
+    tag: "Shot Stopping",
+  },
+  {
+    id: "gal-07",
+    title: "Durand Cup Quarter-Final Euphoria",
+    category: "Celebrations",
+    image: "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=1200&auto=format&fit=crop&q=80",
+    caption: "The entire bench rushes onto the pitch after the referee sounds the final whistle.",
+    tag: "Historic Win",
+  },
+  {
+    id: "gal-08",
+    title: "Grassroots Talent Identification Day",
+    category: "Academy",
+    image: "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=1200&auto=format&fit=crop&q=80",
+    caption: "Over 300 young hopefuls taking part in open trial drills at Mansarovar.",
+    tag: "Next Generation",
+  },
+];
